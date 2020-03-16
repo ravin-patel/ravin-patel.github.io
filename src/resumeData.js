@@ -1,6 +1,6 @@
 let resumeData = {
   imagebaseurl: "https://ravinpatel.github.io/",
-  name: "ravin patel",
+  name: "Ravin Patel",
   role: "Software Engineer",
   linkedinId: "ravin-patel",
   skypeid: "",
@@ -18,89 +18,108 @@ let resumeData = {
       className: "fa fa-github"
     },
     {
-      name: "skype",
-      url: "http://twitter.com/",
-      className: "fa fa-twitter"
+      name: "instagram",
+      url: "www.instagram.com/ravp__/",
+      className: "fa fa-instagram"
     }
   ],
   aboutme:
     "Ryerson Univeristy Computer Science Graduate, currently working as a Software Engineer ",
-  address: "Toronto,On",
-  website: "https://ravin-patel.github.io",
+  address: "Toronto, On",
+  website: "www.ravin.dev",
+  email: "ravin_p21@hotmail.com",
+  phoneNumber: "647-522-1058",
   education: [
     {
       UniversityName: "Ryerson University",
       specialization: "Bachelors of Honours Science : ComputerScience",
-      MonthOfPassing: "May",
+      MonthOfPassing: "Class of",
       YearOfPassing: "2018",
       Achievements: ""
     }
   ],
   work: [
     {
-      CompanyName: "Ceridian Dayforce",
-      specialization: "Software Engineering Intern",
-      MonthOfLeaving: "Sept",
-      YearOfLeaving: "2017",
-      Achievements: " - "
+      CompanyName: "Publicis.Sapient",
+      specialization: "Software Engineer - AEM Backend",
+      startTime: "Jan 2019",
+      endTime: "Current",
+      Achievements: ""
     },
     {
       CompanyName: "Publicis.Sapient",
       specialization: "Software Engineer - Dev Ops",
-      MonthOfLeaving: "Jan",
-      YearOfLeaving: "2019",
-      Achievements: " - "
+      startTime: "July 2018",
+      endTime: "Jan 2019",
+      Achievements: ""
     },
     {
-      CompanyName: "Publicis.Sapient",
-      specialization: "Software Engineer - AEM Backend",
-      MonthOfLeaving: "Present",
-      YearOfLeaving: "2020",
-      Achievements: " - "
+      CompanyName: "Ceridian Dayforce",
+      specialization: "Software Engineering Intern",
+      startTime: "May 2016",
+      endTime: "Sept 2017",
+      Achievements: ""
     }
+    
+    
   ],
-  skillsDescription: "Your skills here",
+  technologies:
+    "ASP.NET, Apache Sling, OSGi, React, node.js, Bootstrap, Google Cloud, AWS S3, MySQL, AEM, Oracle, Git, Gitlab, Docker, Jenkins, Fitnesse, XCode, Eclipse, Microsoft Visual Studio, TFS, JIRA",
   skills: [
     {
-      skillname: "HTML5"
+      skillName: "JAVA"
     },
     {
-      skillname: "CSS"
+      skillName: "AEM"
     },
     {
-      skillname: "Reactjs"
+      skillName: "Python"
+    },
+    {
+      skillName: "Javascript"
+    },
+    {
+      skillName: "Reactjs"
+    },
+    {
+      skillName: "cSharp"
     }
+    
   ],
   portfolio: [
     {
       name: "AWS S3 CLI",
-      description: "",
-      imgurl: "images/portfolio/s3.png"
+      description: "AWS S3 CLI Tool is used to get data of your s3 storage. This is done in python and utilizes the boto3 library",
+      imgurl: "images/portfolio/s3.png",
+      githuburl: "https://github.com/ravin-patel/AWS-Simple-Storage-Service-CLI-Tool"
     },
     {
       name: "Auto Complete",
-      description: "",
-      imgurl: "images/portfolio/autocomplete.png"
+      description: "An 'autocomplete' implementation using trie abstract data trees.The program will take user inputed string and show autocomplete word list by traversing the Trie through the dictionary such as the american-english",
+      imgurl: "images/portfolio/autocomplete.png",
+      githuburl:"https://github.com/ravin-patel/Autocomplete-"
     },
     {
       name: "Conways Game Of Life Simulation",
-      description: "",
-      imgurl: "images/portfolio/gol.gif"
+      description: "Simulation of Conways Game Of Life developed with multithreaded C programming that I had to make for my operating systems class",
+      imgurl: "images/portfolio/gol.gif",
+      githuburl: "https://github.com/ravin-patel/GameOfLife"
     },
     {
       name: "PacMan",
-      description: "mobileapp",
-      imgurl: "images/portfolio/pacman.png"
+      description: "Predator-Prey behaviour game developed in Object Oriented Java and played by controlling classic character Pac-Man. Developed all spirits by utilizing the Graphics2D Java library. Used Java and physics to simulate the movements of the Ghos",
+      imgurl: "images/portfolio/pacman.png",
+      githuburl:"https://github.com/ravin-patel/PacMan"
     }
   ],
   testimonials: [
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
+      description: "",
+      name: ""
     },
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
+      description: "",
+      name: ""
     }
   ]
 };
