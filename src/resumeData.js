@@ -14,12 +14,12 @@ let resumeData = {
     },
     {
       name: "github",
-      url: "ravin-patel.github.io",
+      url: "https://github.com/ravin-patel",
       className: "fa fa-github"
     },
     {
       name: "instagram",
-      url: "www.instagram.com/ravp__/",
+      url: "https://www.instagram.com/ravp__/",
       className: "fa fa-instagram"
     }
   ],
