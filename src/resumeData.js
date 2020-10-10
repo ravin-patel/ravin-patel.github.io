@@ -40,10 +40,17 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Verafin",
+      specialization: "Software Developer",
+      startTime: "June 2020",
+      endTime: "Current",
+      Achievements: ""
+    },
+    {
       CompanyName: "Publicis.Sapient",
       specialization: "Software Engineer - AEM Backend",
       startTime: "Jan 2019",
-      endTime: "Current",
+      endTime: "June 2020",
       Achievements: ""
     },
     {
@@ -64,7 +71,7 @@ let resumeData = {
     
   ],
   technologies:
-    "ASP.NET, Apache Sling, OSGi, React, node.js, Bootstrap, Google Cloud, AWS S3, MySQL, AEM, Oracle, Git, Gitlab, Docker, Jenkins, Fitnesse, XCode, Eclipse, Microsoft Visual Studio, TFS, JIRA",
+    "ASP.NET, Apache Sling, OSGi, React, node.js, Bootstrap, Google Cloud, AWS, MySQL, AEM, Oracle, Git, Gitlab, Docker, Jenkins, Fitnesse, XCode, Eclipse, Microsoft Visual Studio, TFS, JIRA, Terraform",
   skills: [
     {
       skillName: "JAVA"
